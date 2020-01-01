@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -9,37 +10,29 @@ body {
   width: 1920px;
   height: 1080px;
   display: flex;
-  align-items: flex-end;
-  background-color: #d9e2ec;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: flex-end;
   position: relative;
 }
 
 .bottom {
   width: 100%;
-  height: 225px;
+  height: 150px;
   color: #243b53;
-  margin-left: 530px;
+  margin-left: 950px;
+  background-color: #d9e2ec;
+  border-top-left-radius: 30px;
+  box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .bottom h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin-left: 30px;
   margin-top: 20px;
 }
 
 .bottom h2 {
-  font-size: 2.4em;
+  font-size: 1.6em;
   margin-left: 30px;
-}
-
-.camera {
-  border: 20px solid #ae90da;
-  width: 1280px;
-  height: 720px;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.6);
 }
