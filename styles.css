@@ -17,10 +17,10 @@ body {
 }
 
 .bottom {
-  width: 100%;
+  width: 60%;
   height: 150px;
   color: #243b53;
-  margin-left: 950px;
+  margin-left: 1350px;
   background-color: #d9e2ec;
   border-top-left-radius: 30px;
   box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.2);
